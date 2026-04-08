@@ -24,7 +24,7 @@ body:
   - type: textarea
     attributes:
       label: 発生現象
-      description: 実際に発生している問題を記載してください
+      description: 実際に発生している問題/発生頻度を記載してください
     validations:
       required: true
 

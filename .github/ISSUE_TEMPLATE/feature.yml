@@ -17,4 +17,3 @@ body:
       description: 調査内容や参考情報があれば記載してください
     validations:
       required: false
-``

@@ -35,27 +35,16 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     attributes:
-      label: FWバージョン / コミット
-      placeholder: "例: V0020 (a1b2c3d)"
+      label: 確認環境
+      description: 検証を行った環境を記載してください
+      value: |
+        - FW version/commit：
+        - 使用基板：
+        - 使用端末：
     validations:
       required: true
-
-  - type: input
-    attributes:
-      label: 使用基板
-      placeholder: "例: ES1 (Lch No.01/Rch No.02)"
-    validations:
-      required: true
-
-  - type: input
-    attributes:
-      label: 使用端末
-      placeholder: "例: Pixel 7 (Android ver. 14)"
-    validations:
-      required: true
-
 
   - type: textarea
     attributes:

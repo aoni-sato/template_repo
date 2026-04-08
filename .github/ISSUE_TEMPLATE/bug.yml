@@ -1,7 +1,7 @@
 
 name: 🐛 Bug
 description: 不具合報告（必須項目あり）
-title: "[Bug] "
+
 labels: ["bug", "type:bug"]
 
 body:
@@ -38,14 +38,14 @@ body:
   - type: input
     attributes:
       label: FWバージョン / コミット
-      placeholder: "例: V0020 / a1b2c3d"
+      placeholder: "例: V0020 (a1b2c3d)"
     validations:
       required: true
 
   - type: input
     attributes:
       label: 使用基板
-      placeholder: "例: ES1 #01/#02"
+      placeholder: "例: ES1 (Lch No.01/Rch No.02)"
     validations:
       required: true
 

@@ -41,7 +41,7 @@ body:
       description: |
         検証を行った環境を記載してください。
 
-        例:
+        例 :
         - FW version/commit : V0020 (aba6626a)
         - 使用基板 : ES1 (Lch No.1, Rch No.2)
         - 使用端末 : Pixel 6 (Android ver.16)

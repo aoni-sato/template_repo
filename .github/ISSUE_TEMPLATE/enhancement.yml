@@ -1,7 +1,7 @@
 
-name: ✨ Feature
+name: ✨ Enhancement
 description: 新機能・改善提案
-labels: ["feature", "type:feature"]
+labels: ["enhancement", "type:enhancement"]
 
 body:
   - type: textarea

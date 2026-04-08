@@ -10,24 +10,10 @@ body:
       value: |
         ❗ 不具合再現・修正のため、必須項目は必ず記入してください。
 
-  - type: input
-    attributes:
-      label: 影響範囲
-      placeholder: "例: 本番のみ / 一部ユーザー / 特定環境"
-    validations:
-      required: true
-
   - type: textarea
     attributes:
-      label: 発生している問題
-      description: 実際に何が起きているか
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: 再現手順
-      description: 手順を箇条書きで
+      label: 手順
+      description: 不具合が発生するまでの手順を箇条書きで記載してください
       placeholder: |
         1.
         2.
@@ -37,12 +23,32 @@ body:
 
   - type: textarea
     attributes:
-      label: 期待する動作
+      label: 発生現象
+      description: 実際に発生している問題を記載してください
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: 補足（ログ・スクショ等）
+      label: 期待動作
+      description: 本来期待される動作を記載してください
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 確認環境
+      description: 不具合を確認した環境を記載してください
+      placeholder: |
+        - FWバージョン（FWバージョンまたはコミット）:
+        - 使用基板:
+        - 使用端末（ソースデバイス / OS バージョン）:
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 補足（ログ・スクショ・他環境での発生状況など）
+      description: ログ、スクリーンショット、他機種・他環境での発生有無などがあれば記載してください
     validations:
       required: false

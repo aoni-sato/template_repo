@@ -35,16 +35,27 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: input
     attributes:
-      label: 確認環境
-      description: 不具合を確認した環境を記載してください
-      placeholder: |
-        - FWバージョン（FWバージョンまたはコミット）:
-        - 使用基板:
-        - 使用端末（ソースデバイス / OS バージョン）:
+      label: FWバージョン / コミット
+      placeholder: "例: v1.2.3 / a1b2c3d"
     validations:
       required: true
+
+  - type: input
+    attributes:
+      label: 使用基板
+      placeholder: "例: Board-A Rev.2"
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 使用端末
+      placeholder: "例: Pixel 7 / Android 14"
+    validations:
+      required: true
+
 
   - type: textarea
     attributes:

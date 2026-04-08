@@ -1,0 +1,48 @@
+
+name: 🐛 Bug
+description: 不具合報告（必須項目あり）
+title: "[Bug] "
+labels: ["bug", "type:bug"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ❗ 不具合再現・修正のため、必須項目は必ず記入してください。
+
+  - type: input
+    attributes:
+      label: 影響範囲
+      placeholder: "例: 本番のみ / 一部ユーザー / 特定環境"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 発生している問題
+      description: 実際に何が起きているか
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 再現手順
+      description: 手順を箇条書きで
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 期待する動作
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 補足（ログ・スクショ等）
+    validations:
+      required: false

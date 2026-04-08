@@ -1,0 +1,20 @@
+
+name: ✨ Feature
+description: 新機能・改善提案
+labels: ["feature", "type:feature"]
+
+body:
+  - type: textarea
+    attributes:
+      label: 概要
+      description: 実現したいことを簡潔に記載してください
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 補足
+      description: 調査内容や参考情報があれば記載してください
+    validations:
+      required: false
+``

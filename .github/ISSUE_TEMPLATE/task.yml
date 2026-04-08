@@ -1,0 +1,19 @@
+
+name: ✅ Task
+description: 作業タスク
+labels: ["task", "type:task"]
+
+body:
+  - type: textarea
+    attributes:
+      label: 作業内容
+      description: やることを簡潔に記載してください
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 補足
+      description: メモや注意点があれば記載してください
+    validations:
+      required: false
